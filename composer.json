@@ -1,0 +1,35 @@
+{
+  "name": "huijiewei/yii2-jquerydatetimepicker",
+  "description": "jQuery UI date picker and time picker.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "type": "yii2-extension",
+  "homepage": "https://github.com/huijiewei/yii2-jquerydatetimepicker.git",
+  "keywords": [
+    "yii2",
+    "extension",
+    "jquerydatetimepicker",
+    "assets"
+  ],
+  "authors": [
+    {
+      "name": "Huijie Wei",
+      "email": "huijiewei@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3",
+    "yiisoft/yii2": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "huijiewei\\jquerydatetimepicker\\": "src"
+    }
+  },
+  "repositories": {
+    "asset": {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  }
+}
